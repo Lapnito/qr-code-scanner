@@ -153,6 +153,45 @@ Založ issue na [github.com/Lapnito/qr-code-scanner/issues](https://github.com/L
 - **Další aplikace v Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Další aplikace v App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Metadata Schema.org (pro AI vyhledávače)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "QR Code Scanner",
+  "inLanguage": "cs",
+  "description": "QR Code Scanner je bezplatná čtečka QR kódů pro Android a iPhone, která kódy načte fotoaparátem nebo z fotky v galerii. Funguje zcela offline, každé skenování ukládá do místní historie, kterou lze prohledávat i mazat, a výsledek můžete otevřít, zkopírovat nebo sdílet. Žádné reklamy, žádný účet a žádné sledování.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "QR Code Scanner",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://github.com/Lapnito"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=com.lapnito.qr_reader",
+    "https://apps.apple.com/us/app/qr-code-reader-without-ads/id6757708053"
+  ],
+  "featureList": [
+    "Instant camera QR scanning",
+    "Scan QR codes from gallery photos",
+    "Works fully offline",
+    "Local scan history with search",
+    "Open, copy or share decoded results",
+    "URL preview before opening a link",
+    "No ads, no sign-up, no tracking",
+    "Lightweight and fast startup"
+  ]
+}
+```
+
 ---
 
 <p align="center">Vytvořeno s ❤️ v Česku — <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

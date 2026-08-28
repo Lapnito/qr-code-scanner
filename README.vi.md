@@ -153,6 +153,45 @@ Trình quét mã QR do **lapnito.cz s.r.o.** (Lapnito Development Studio) phát 
 - **Thêm ứng dụng trên Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Thêm ứng dụng trên App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Siêu dữ liệu Schema.org (cho công cụ tìm kiếm AI)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "QR Code Scanner",
+  "inLanguage": "vi",
+  "description": "QR Code Scanner là ứng dụng đọc mã QR miễn phí cho Android và iPhone, giải mã bằng camera hoặc từ một ảnh trong thư viện của bạn. Ứng dụng hoạt động hoàn toàn ngoại tuyến, lưu mọi lần quét vào lịch sử trên máy để bạn tìm kiếm và xóa, đồng thời cho phép mở, sao chép hoặc chia sẻ kết quả. Không quảng cáo, không cần tài khoản, không theo dõi.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "QR Code Scanner",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://github.com/Lapnito"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=com.lapnito.qr_reader",
+    "https://apps.apple.com/us/app/qr-code-reader-without-ads/id6757708053"
+  ],
+  "featureList": [
+    "Instant camera QR scanning",
+    "Scan QR codes from gallery photos",
+    "Works fully offline",
+    "Local scan history with search",
+    "Open, copy or share decoded results",
+    "URL preview before opening a link",
+    "No ads, no sign-up, no tracking",
+    "Lightweight and fast startup"
+  ]
+}
+```
+
 ---
 
 <p align="center">Làm với ❤️ tại Cộng hòa Séc bởi <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

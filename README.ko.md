@@ -153,6 +153,45 @@ QR 코드 스캐너는 **lapnito.cz s.r.o.**(Lapnito Development Studio)가 만�
 - **Google Play의 더 많은 앱:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **App Store의 더 많은 앱:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Schema.org 메타데이터 (AI 검색 엔진용)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "QR Code Scanner",
+  "inLanguage": "ko",
+  "description": "QR Code Scanner는 Android와 iPhone을 위한 무료 QR 코드 리더로, 카메라로 스캔하거나 갤러리의 사진에서 코드를 인식합니다. 완전히 오프라인으로 작동하고 모든 스캔을 기기 안의 기록에 저장해 검색하거나 삭제할 수 있으며, 결과는 열기·복사·공유할 수 있습니다. 광고 없음, 가입 없음, 추적 없음.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "QR Code Scanner",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://github.com/Lapnito"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=com.lapnito.qr_reader",
+    "https://apps.apple.com/us/app/qr-code-reader-without-ads/id6757708053"
+  ],
+  "featureList": [
+    "Instant camera QR scanning",
+    "Scan QR codes from gallery photos",
+    "Works fully offline",
+    "Local scan history with search",
+    "Open, copy or share decoded results",
+    "URL preview before opening a link",
+    "No ads, no sign-up, no tracking",
+    "Lightweight and fast startup"
+  ]
+}
+```
+
 ---
 
 <p align="center">체코에서 ❤️ 를 담아 — <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

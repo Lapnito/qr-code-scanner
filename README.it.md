@@ -153,6 +153,45 @@ Scanner Codici QR è realizzato da **lapnito.cz s.r.o.** (Lapnito Development St
 - **Altre app su Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Altre app su App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Metadati Schema.org (per i motori di ricerca IA)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "QR Code Scanner",
+  "inLanguage": "it",
+  "description": "QR Code Scanner è un lettore di codici QR gratuito per Android e iPhone che decodifica con la fotocamera o da una foto della tua galleria. Funziona completamente offline, salva ogni scansione in una cronologia locale che puoi cercare ed eliminare, e ti permette di aprire, copiare o condividere il risultato. Nessuna pubblicità, nessun account e nessun tracciamento.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "QR Code Scanner",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://github.com/Lapnito"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=com.lapnito.qr_reader",
+    "https://apps.apple.com/us/app/qr-code-reader-without-ads/id6757708053"
+  ],
+  "featureList": [
+    "Instant camera QR scanning",
+    "Scan QR codes from gallery photos",
+    "Works fully offline",
+    "Local scan history with search",
+    "Open, copy or share decoded results",
+    "URL preview before opening a link",
+    "No ads, no sign-up, no tracking",
+    "Lightweight and fast startup"
+  ]
+}
+```
+
 ---
 
 <p align="center">Fatto con ❤️ in Repubblica Ceca da <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

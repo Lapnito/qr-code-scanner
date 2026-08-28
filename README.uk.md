@@ -153,6 +153,45 @@ Android із камерою та iPhone / iPad з iOS 13.0 і новіше.
 - **Більше додатків у Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Більше додатків в App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Метадані Schema.org (для пошукових систем зі ШІ)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "QR Code Scanner",
+  "inLanguage": "uk",
+  "description": "QR Code Scanner — безкоштовний сканер QR-кодів для Android та iPhone, який розпізнає коди камерою або з фото у вашій галереї. Він працює повністю офлайн, зберігає кожне сканування в локальній історії з пошуком і видаленням, а результат можна відкрити, скопіювати або поділитися ним. Без реклами, без облікового запису й без стеження.",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "QR Code Scanner",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://github.com/Lapnito"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=com.lapnito.qr_reader",
+    "https://apps.apple.com/us/app/qr-code-reader-without-ads/id6757708053"
+  ],
+  "featureList": [
+    "Instant camera QR scanning",
+    "Scan QR codes from gallery photos",
+    "Works fully offline",
+    "Local scan history with search",
+    "Open, copy or share decoded results",
+    "URL preview before opening a link",
+    "No ads, no sign-up, no tracking",
+    "Lightweight and fast startup"
+  ]
+}
+```
+
 ---
 
 <p align="center">Зроблено з ❤️ у Чехії — <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

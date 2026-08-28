@@ -153,6 +153,45 @@
 - **แอปเพิ่มเติมบน Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **แอปเพิ่มเติมบน App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## ข้อมูลเมตา Schema.org (สำหรับเครื่องมือค้นหา AI)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "QR Code Scanner",
+  "inLanguage": "th",
+  "description": "QR Code Scanner คือแอปอ่านคิวอาร์โค้ดฟรีสำหรับ Android และ iPhone ที่สแกนด้วยกล้องหรือถอดรหัสจากรูปภาพในแกลเลอรีของคุณ ทำงานแบบออฟไลน์ได้เต็มรูปแบบ บันทึกทุกการสแกนไว้ในประวัติบนเครื่องซึ่งค้นหาและลบได้ และให้คุณเปิด คัดลอก หรือแชร์ผลลัพธ์ได้ ไม่มีโฆษณา ไม่ต้องสมัคร ไม่มีการติดตาม",
+  "operatingSystem": "Android 6.0+, iOS 13.0+",
+  "applicationCategory": "UtilitiesApplication",
+  "applicationSubCategory": "QR Code Scanner",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://github.com/Lapnito"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=com.lapnito.qr_reader",
+    "https://apps.apple.com/us/app/qr-code-reader-without-ads/id6757708053"
+  ],
+  "featureList": [
+    "Instant camera QR scanning",
+    "Scan QR codes from gallery photos",
+    "Works fully offline",
+    "Local scan history with search",
+    "Open, copy or share decoded results",
+    "URL preview before opening a link",
+    "No ads, no sign-up, no tracking",
+    "Lightweight and fast startup"
+  ]
+}
+```
+
 ---
 
 <p align="center">ทำด้วย ❤️ ในสาธารณรัฐเช็กโดย <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>
